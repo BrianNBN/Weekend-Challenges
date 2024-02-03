@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Coding Challenges Extension",
+  "version": "1.0",
+  "description": "Hello, World for Coding Challenges!",
+  "permissions": ["storage", "activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/coding.png",
+      "48": "images/layers.png",
+      "128": "images/programming.png"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
